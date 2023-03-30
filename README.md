@@ -1,6 +1,8 @@
-<h1 align="center">Wp-Wordlist-Maker</h1>
-<h3 align="center">Use Wp-Wordlist-Maker to generate a list of all available #WordPress plugins and themes! </h3>
-Use the wordlist to fuzz your target and find CVEs or 0days to report🔥
+# Wp-Wordlist-Maker
+
+Use Wp-Wordlist-Maker to generate a list of all available #WordPress plugins and themes and fuzz your target and find CVEs or information dicloser to report 🔥
+
+>! ⚠️ **WARNING:** This tool is provided for educational and ethical purposes only. Do not use it for any illegal activities, as the author is not responsible for any misuse or damage caused by this tool. Use it at your own risk.
 
 # Examples
 
@@ -9,16 +11,16 @@ Use the wordlist to fuzz your target and find CVEs or 0days to report🔥
 ```bash
 bash wp-wordlist "plugin" > plugins.txt
 ```
-Find Plugin Get Related Wordslist :
+### Find Plugin Get Related Wordslist :
 ```bash
 bash wp-wordlist "theme" > theme.txt
 ```
-# How To Use With Fuff
-With Plugin Wordlist 
+# How To Use With Fuff your target
+### With Plugin Wordlist 
 ```bash
 fuff -w /path/to/plugins.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
 ```
-With Theme Wordlist 
+### With Theme Wordlist 
 ```bash
 fuff -w /path/to/theme.txt -u https://Target.com/wp-content/plugins/FUZZ/readme.txt
 ```
