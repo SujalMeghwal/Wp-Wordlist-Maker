@@ -1,8 +1,9 @@
 # Wp-Wordlist-Maker
 
+>! ⚠️ **WARNING:** This tool is provided for educational and ethical purposes only. Do not use it for any illegal activities, as the author is not responsible for any misuse or damage caused by this tool. Use it at your own risk.
+
 Use Wp-Wordlist-Maker to generate a list of all available #WordPress plugins and themes and fuzz your target and find CVEs or information dicloser to report 🔥
 
->! ⚠️ **WARNING:** This tool is provided for educational and ethical purposes only. Do not use it for any illegal activities, as the author is not responsible for any misuse or damage caused by this tool. Use it at your own risk.
 
 # Examples
 
